@@ -1,0 +1,180 @@
+/* For devices with width between 769px and 1279px, like landscape tablets and laptops */
+@media only screen and (max-width: 852px) {
+  
+    * {
+      overflow-y: scroll;
+      overflow-y: visible; /* Add the ability to scroll */
+    }
+    
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    *::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    *{
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    
+    .font-1 {
+      font-size: 24px;
+    }
+  
+    .social-btn {
+      margin-right: 5px;
+    }
+  
+    .myGallery {
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    }
+  }
+  
+  @media only screen and (max-width: 758px) {
+  
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar img {
+      width: 25%;
+      padding-top: 30px;
+    }
+  
+    .hero {
+      margin: 30px 0 20px !important;
+      flex-direction: column-reverse;
+    }
+  
+    .hero-left {
+      margin-top: 30px;
+    }
+  
+    .hero-left h1 {
+      justify-content: center;
+    }
+  
+  #rct-img {
+      width: 55%;
+      height: 58%;
+      justify-content: center;
+      align-items: center;
+      margin: 0 25%; 
+    }
+  
+    #dot-top {
+      width: 15%;
+      margin-left: -51%;
+  }
+  
+  #dot-bottom {
+    width: 15%;
+    margin-left: -51%;
+  }
+  
+    .hero-left #details {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .hero-left a {
+      display: none;
+    }
+  
+    .hero-right .image {
+      max-width: 42%;
+  }
+  
+    .color-box {
+      z-index: -2;
+      width: 40%;
+      transform: translateX(-70px);
+  }
+  
+  .head-2 {
+    margin: 0px 30px 40px;
+  }
+  
+  .container-3 {
+    margin: 0px 40px;
+  }
+  
+  .container {
+    margin: 0px 40px;
+  }
+  
+  .myGallery {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+  
+  #last-sec #dot-top1 {
+    top: 25%;
+    transform: translateX(-25px);
+    width: 12%;
+  }
+  
+  #last-sec #dot-top2 {
+    bottom: 60%;
+  }
+  
+  #dot-top3 {
+    width: 12%;
+  }
+  
+  #dot-top4 {
+    transform: translate(1px, 125px);
+    width: 15%;
+  }
+  
+  .hero {
+    margin: 60px 0 0px;
+  }
+  
+  .testi .mySlides h1 {
+    font-size: 130px;
+  }
+  
+  .testi .mySlides h2 {
+    font-size: 17px;
+  }
+  
+  .mySlides .nameT {
+    font-size: 12px;
+  }
+  
+  .contact .contact-left h2 {
+    font-size: 17px;
+  }
+  
+  div.main div {
+    margin: 20px 0;
+  }
+  
+  label {
+    font-size: 14px;
+    margin: 5px;
+    padding: 0 10px;
+  }
+  
+  .active {
+    top: -15px;
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
+  
+  .connact-btn button {
+    font-size: 12px;
+  }
+  
+  .footer a {
+    font-size: 12px;
+    margin: 12px;
+  }
+  
+  .wave {
+    font-size: 120%;
+  }
+  
+  }
